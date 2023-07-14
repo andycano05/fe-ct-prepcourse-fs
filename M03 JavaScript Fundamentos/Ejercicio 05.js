@@ -70,10 +70,12 @@ function esVocal(letra) {
    // Si no es vocal, tambien debe retornar "Dato incorrecto".
    // Tu código:
    if (letra === "a", "e", "i", "o", "u") {
-      return "Es vocal"
+      return ("Es vocal");
+   } else if (letra.lenght >1) {
+      return ("Dato incorrecto");
    } else {
-      return "Dato incorrecto"
-      }
+      return ("Dato incorrecto");
+   }
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
